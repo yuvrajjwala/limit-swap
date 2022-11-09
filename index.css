@@ -218,3 +218,58 @@
    transition-duration: 1s;
    font-size: 1.1rem;
 }
+
+@media screen and (max-width: 800px) {
+   .limit-swap-container{
+      width: 95vw;
+      height: auto;
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+   .swap-last {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      width: 99%;
+      margin-top: 6px;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .market-rate-container {
+   width: 94%;
+   background-color: #071213;
+   border-radius: 20px;
+   padding: 10px;
+}
+.expires-in {
+    color: rgb(255, 255, 255);
+    width: 94%;
+    background-color: #071213;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    padding-right: 3%;
+    padding-top: 10px;
+}
+.swap1 {
+   margin-bottom: 10px;
+}
+.socials-header{
+   display: none;
+}
+.navbar img{
+   height: 20px;
+}
+.connect-wallet {
+   font-size: 10px;
+   position: relative;
+   bottom: 12px;
+   padding: 7px 15px;
+}
+ }
