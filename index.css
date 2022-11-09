@@ -1,0 +1,220 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'poppins';
+}
+.main-container{
+   background-image: url(./bg.png);
+   height: 100vh;
+   width: 100vw;
+   background-size: conver;
+}
+.navbar{
+   display: flex;
+   color: white;
+   justify-content: space-between;
+   width: 90vw;
+   margin: auto;
+   padding-top: 50px;
+}
+.navbar img{
+   cursor: pointer;
+}
+
+.navbar ul{
+   list-style: none;
+   padding-top: 18px;
+}
+.navbar ul li{
+   float: left;
+   margin: 0px 40px;
+   cursor: pointer;
+   transition-duration: 0.5s;
+}
+.navbar ul li:hover{
+   transform: scale(1.1);
+}
+.connect-wallet{
+   padding: 10px 20px;
+   border-radius: 20px;
+   color: white;
+   background-color: #3C9032;
+   transition-duration: 1s;
+   margin-top: 10px;
+   font-weight: bold;
+}
+.connect-wallet:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+/*LIMIT CONTAINER*/
+
+.limit-swap-container{
+   width:800px;
+   height: 450px;
+   background-color: rgb(0, 0, 0);
+   background-image: url(./limit-swap-bg.png);
+   border-radius: 22px;
+   display: flex;
+   margin: auto;
+   margin-top: 100px;
+   
+}
+.swap-limit ul{
+   display: flex;
+}
+.swap-limit ul li{
+   margin-left: 20px;
+   text-decoration: none;
+   color: white;
+   list-style: none;
+   opacity: 0.7;
+   font-weight: bold;
+   font-size: 1.1rem;
+   margin-top: 10px;
+}
+.limit{
+   font-weight: bold;
+   opacity: 1 !important;
+}
+.swap1{
+   background-color:#071213;
+   border-radius: 20px;
+   padding: 10px;
+   display: flex;
+   margin: auto;
+   width:94%;
+   flex-direction: column;
+}
+.limit-swap-container{
+   display: flex;
+   flex-direction: column;
+
+}
+.swap-inner-1{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   width: 98%;
+   margin:auto;
+   margin: 2px 0px;
+}
+.opcity-70{
+   opacity: 0.8;
+   font-size: 0.9rem;
+}
+.first-coin-name{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#currency-coin,#currency-coin2{
+   height: 25px;
+   position: relative;
+   top: 2px;
+}
+#down-arrow{
+   height: 15px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+#currency-name,#currency-name2{
+   font-size: 25px;
+   font-weight: 500;
+   margin-left: 5px;
+}
+#sell-quantity,#sell-quantity2{
+   font-weight: bold;
+   font-size: 20px;
+}
+#currency-full-name,#currency-full-name2{
+   opacity: 0.7;
+}
+#currency-value,#currency-value2{
+   opacity: 0.7;
+}
+
+.market-rate-container{
+   width: 60%;
+   background-color:#071213;
+   border-radius: 20px;
+   padding: 10px;
+}
+.expires-in{
+   color: rgb(255, 255, 255);
+   width: 30%;
+   background-color:#071213;
+   border-radius: 20px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
+   text-align: right;
+   padding-right: 3%;
+   padding-top: 10px;
+}
+.expires-in img{
+   height: 12px;
+}
+.expires-in div:nth-child(0){
+   padding-bottom: 10px;
+}
+#days-count{
+   font-weight: bold;
+   font-size: 1.2rem;
+   padding-top: 10px;
+}
+.swap-last{
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   width:95%;
+   flex-direction: row;
+}
+.set-to-market{
+   color: #4BC600;
+   font-size: 0.95rem;
+}
+.set-to-market img{
+   height: 12px;
+}
+.submit-wallet{
+   width: 94%;
+   margin: auto;
+   padding: 6px;
+   border-radius: 10px;
+   background-color: #184F56;
+   border: none;
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+}
+.submit-wallet img{
+   height: 25px;
+   margin-right: 5px;
+}
+.submit-cl{
+   position: relative;
+   bottom: 7px;
+}
+.submit-wallet-container{
+   position: relative;
+   top: 2px;
+}
+#total-value{
+   font-size: 1.2rem;
+   color: white;
+   font-weight: bold;
+}
+#interchange img{
+   cursor: pointer;
+   height: 19px;
+}
+#day-toggle{
+   cursor: pointer;
+}
+.submit-wallet:hover{
+   transition-duration: 1s;
+   font-size: 1.1rem;
+}
